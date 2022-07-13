@@ -1,5 +1,7 @@
 import networkx as nx
+import torch
 
 if __name__ == '__main__':
-    G = nx.les_miserables_graph()
-    print(G.nodes)
+    print(torch.__version__)
+    print(torch.version.cuda)
+    print(torch.cuda.is_available())
